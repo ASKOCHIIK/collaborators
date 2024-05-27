@@ -16,3 +16,11 @@ class Arzygul(Asko):
 p = Arzygul()
 print(p.info())
 print('test')
+
+
+class DONIKO312(Asko):
+    def __init__(self):
+        super().__init__('Daniel')
+
+a = DONIKO312()
+print(p.info())
