@@ -24,3 +24,7 @@ class Idiris(Asko):
 a = Idiris()
 print(a.info())
 print('Hello world')
+
+class DONIKO312(Asko):
+    def __init__(self):
+        super().__init__("Daniel")
