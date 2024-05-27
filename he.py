@@ -5,6 +5,11 @@ class Asko:
     def info(self):
         return self.n
 
+class Idirisnin(Asko):
+    def __init__(self):
+        super().__init__("Idiris")
+
+
 class Nursultan(Asko):
     def __init__(self):
         super().__init__("Nursulan")
@@ -17,10 +22,4 @@ p = Arzygul()
 print(p.info())
 print('test')
 
-class Idiris(Asko):
-    def __init__(self):
-        super().__init__("Idiris")
 
-a = Idiris()
-print(a.info())
-print('Hello world')
